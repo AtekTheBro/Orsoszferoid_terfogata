@@ -1,0 +1,53 @@
+<!--
+File: index.html
+Author: Kriston Attila
+Copyright: 2024, Kriston Attila
+Group: Szoft I/1/N
+Date: 2024-04-16
+Github: https://github.com/atekthebro/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orsószferoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>Orsószferoid térfogata</h1>
+            <h2>0339 feldat</h2>
+        </header>
+        <main>
+            <div class="orsoter">
+                <div class="input">
+                    <label for="a_tengely" class="form-label">A tengely</label>
+                    <input type="text" id="a_tengely" required class="form-control">
+                </div>
+                <div class="input">
+                    <label for="b_tengely" class="form-label">B tengely</label>
+                    <input type="text" id="b_tengely" required class="form-control">
+                </div>
+                <div>
+                    <button id="calcButton" class="btn btn-primary mt-2"> Számít</button>
+                </div>
+                <div class="input">
+                    <label for="terfogat" class="form-label">Térfogat</label>
+                    <input type="text" id="terfogat" readonly class="form-control">
+                    
+                </div>
+            </div>
+        </main>
+        <footer>
+            Kriston Attila, 2024, I-1-N
+        </footer>
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
